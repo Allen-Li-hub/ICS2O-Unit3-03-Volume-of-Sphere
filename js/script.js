@@ -8,8 +8,8 @@
  * Check servie worker.
  */
 if (navigator.serviceWorker) {
-  navigator.serviceWorker.register("/ICS2O-Unit3-02-HTML-lighthouse/sw.js", {
-    scope: "/ICS2O-Unit3-02-HTML-lighthouse/",
+  navigator.serviceWorker.register("/ICS2O-Unit3-03-Volume-of-Sphere/sw.js", {
+    scope: "/ICS2O-Unit3-03-Volume-of-Sphere/",
   })
 }
 /**
