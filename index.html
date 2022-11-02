@@ -76,21 +76,25 @@
             class="mdl-textfield__input"
             type="text"
             pattern="-?[0-9]*(\.[0-9]+)?"
-            id="radius-of-circle"/>
-          <label class="mdl-textfield__label" for="radius-of-circle">radius ...</label>
+            id="radius-of-circle"
+          />
+          <label class="mdl-textfield__label" for="radius-of-circle"
+            >radius ...</label
+          >
         </div>
       </form>
       <!-- Raised button with ripple -->
       <button
         class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-        onclick="calculate()">
+        onclick="calculate()"
+      >
         Calculate
       </button>
-      <br/>
-      <p>
-        <div id="answers">
-          <div id="volume"></div>
-        </div>
+      <br />
+      <p></p>
+      <div id="answers">
+        <div id="volume"></div>
+      </div>
     </main>
   </body>
 </html>
