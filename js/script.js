@@ -3,6 +3,15 @@
 // This file contains the JS functions for index.html
 
 "use strict"
+
+/**
+ * Check servie worker.
+ */
+if (navigator.serviceWorker) {
+  navigator.serviceWorker.register("/ICS2O-Unit3-02-HTML-lighthouse/sw.js", {
+    scope: "/ICS2O-Unit3-02-HTML-lighthouse/",
+  })
+}
 /**
  * This function calculates area and perimeter of triangle.
  */
